@@ -111,6 +111,44 @@ A criação de uma plataforma digital atende a uma necessidade real da populaç�
 Desenvolver uma plataforma digital que facilite o acesso dos cidadãos de Chapecó às informações sobre a coleta de resíduos, promova a educação ambiental sobre o descarte correto e incentive o engajamento da população em práticas de reciclagem por meio de ferramentas interativas de mapeamento, notificação e gamificação.
 
 
+\section{Trabalhos Relacionados}
+
+\section{Propostas do Sistema}
+\subsection{Requisitos Funcionais}
+\begin{itemize}
+  
+    \item RF001: O sistema deve permitir que o usuário cadastre seu endereço para personalizar as informações de coleta.
+    \item RF002: O sistema deve exibir os dias e horários da coleta seletiva e da coleta convencional com base no endereço cadastrado.
+    \item RF003: O sistema deve fornecer informações sobre coletas para resíduos específicos (eletrônicos, óleo, pilhas)
+    \item RF04: O sistema deve possuir uma seção de "Guia de Reciclagem" com informações sobre como separar corretamente os resíduos.
+    \item RF005: O sistema deve implementar uma ferramenta de busca onde o usuário pode digitar o nome de um item e receber instruções sobre o descarte correto.
+    \item RF006: O sistema deve exibir a localização dos PEVs no mapa, identificados por ícones.
+    \item RF007: O sistema deve, ao selecionar um PEV, exibir informações detalhadas (ex: nome, endereço completo, horário de funcionamento, tipos de resíduos aceitos).
+    \item RF008: O sistema deve permitir ao usuário filtrar os PEVs por tipo de resíduo (ex: pilhas e baterias, óleo de cozinha, eletrônicos, lâmpadas).
+    \item RF008: O sistema deve permitir ao usuário traçar uma rota da sua localização atual até um PEV selecionado (integração com apps de mapa como Google Maps).
+    \item RF009: O sistema deve enviar uma notificação push ao usuário para lembrá-lo da proximidade do horário da coleta.
+    \item RF010: O sistema deve permitir ao usuário configurar (ligar/desligar) os tipos de notificações que deseja receber.
+    \item RF011: O sistema deve notificar o usuário sobre mudanças emergenciais na coleta (ex: feriados, problemas operacionais).
+    \item RF012: O sistema deve permitir o "check-in" (via GPS/QR Code) em um PEV para validar o descarte e ganhar pontos.
+    \item RF013: O sistema deve conceder medalhas (badges) ou conquistas por marcos alcançados (ex: "Primeiro Descarte de Pilhas").
+    \item RF014: O sistema deve possuir um painel administrativo para que os responsáveis possam atualizar os horários de coleta por bairro/zona.
+    \item RF015: O sistema deve permitir ao administrador gerenciar (adicionar, editar, remover) os PEVs no mapa.
+    \item RF016: O sistema deve permitir ao administrador enviar notificações em massa para os usuários.
+
+\end{itemize}
+
+\subsection{Requisitos Não Funcionais}
+\begin{itemize}
+  \item RNF001: A interface do usuário (UI) deve ser intuitiva e limpa. 
+  \item RNF002: O layout deve ser responsivo, adaptando-se corretamente a diferentes tamanhos e densidades de tela de smartphones.
+  \item RNF003: O sistema deve seguir as diretrizes de acessibilidade (WCAG), permitindo o uso por pessoas com deficiências (ex: contraste de cores adequado, fontes legíveis, compatibilidade com leitores de tela).
+  \item RNF004: O aplicativo deve lidar bem com a perda de conexão, informando ao usuário e, se possível, mantendo o acesso a dados offline (ex: guia de reciclagem já baixado).
+  \item RNF005: Todos os dados de usuário (endereço, e-mail, etc.) devem ser armazenados de forma criptografada no banco de dados.
+  \item RNF006: Toda a comunicação entre o aplicativo e os servidores deve ser feita via HTTPS.
+  \item RNF007: O sistema deve estar em conformidade com a LGPD (Lei Geral de Proteção de Dados), solicitando consentimento claro para o uso de dados de localização e notificações.
+\end{itemize}
+
+
 \postextual%% Elementos pós-textuais
 \newpage
 %%\printbibliography%% Referências

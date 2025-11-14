@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  26 SEP 2025 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  14 NOV 2025 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1676,16 +1676,28 @@ Overfull \vbox (0.27362pt too high) has occurred while \output is active []
  [2{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 120.
+ (C:\Users\miran\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 120.
+
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
- [3]
+ [3{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [4]
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 119.
+(in both cases you will find help in the memoir manual). on input line 157.
 
 (unoesc-article.aux)
  ***********
@@ -1697,17 +1709,17 @@ Package logreq Info: Writing requests to 'unoesc-article.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36646 strings out of 468130
- 628427 string characters out of 5430633
- 1657661 words of memory out of 5000000
- 64734 multiletter control sequences out of 15000+600000
- 669631 words of font info for 110 fonts, out of 8000000 for 9000
+ 36729 strings out of 468130
+ 629903 string characters out of 5430633
+ 1658661 words of memory out of 5000000
+ 64783 multiletter control sequences out of 15000+600000
+ 671075 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,1240b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on unoesc-article.pdf (3 pages, 102855 bytes).
+<C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
+Output written on unoesc-article.pdf (4 pages, 118582 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 20022 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 22102 words of extra memory for PDF output out of 24883 (max. 10000000)
 
