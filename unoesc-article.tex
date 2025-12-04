@@ -98,10 +98,10 @@ O crescimento urbano acelerado da cidade de Chapecó, como em muitos centros urb
 Conforme as informações coletadas na primeira etapa do projeto e reforçadas pelas entrevistas realizadas com moradores, colegas e vizinhos, predomina uma forte sensação de incerteza e desinformação.
 Entre os problemas relatados estão:
 \begin{itemize}
- \•	Falta de clareza sobre os horários de coleta, especialmente nos dias alternados da coleta seletiva;
- \•	Ausência de informações consolidadas sobre os pontos de entrega voluntária (PEVs);
- \•	Dificuldade de planejamento, principalmente para moradores que saem cedo para trabalhar e não sabem o momento adequado para colocar o lixo na rua;
- \•	Confusão sobre separação correta dos resíduos, que impacta as taxas de reciclagem.
+ \item	Falta de clareza sobre os horários de coleta, especialmente nos dias alternados da coleta seletiva;
+ \item	Ausência de informações consolidadas sobre os pontos de entrega voluntária (PEVs);
+ \item	Dificuldade de planejamento, principalmente para moradores que saem cedo para trabalhar e não sabem o momento adequado para colocar o lixo na rua;
+ \item	Confusão sobre separação correta dos resíduos, que impacta as taxas de reciclagem.
 \end{itemize}
 
 Para solucionar essa lacuna informacional e promover uma cultura de responsabilidade ambiental, este projeto propõe o desenvolvimento de uma plataforma digital. A plataforma funcionará como um canal centralizado, oferecendo aos moradores de Chapecó acesso fácil e rápido a todas as informações pertinentes à coleta de lixo, ao mesmo tempo em que educa e incentiva o engajamento através de funcionalidades interativas e de gamificação.
@@ -127,10 +127,10 @@ Para compreender o cenário atual da gestão digital de resíduos e identificar 
 A Sensoneo oferece uma solução completa voltada à otimização da coleta de resíduos, incluindo:
 \begin{itemize}
   
-    \ •	Rotas pré-planejadas e otimizadas, reduzindo consumo de combustível e tempo de operação;
-    \ •	Navegação guiada por voz, que facilita a adaptação de novos motoristas;
-    \ •	Atualização em tempo real de rotas, considerando ruas estreitas e restrições de veículos;
-    \•	Gestão eficiente de grandes volumes de dados, incluindo milhares de lixeiras e veículos, minimizando erros em processos manuais.Esses sistemas buscam reduzir custos operacionais e impactos ambientais, como ruídos e congestionamentos urbanos .
+    \item	Rotas pré-planejadas e otimizadas, reduzindo consumo de combustível e tempo de operação;
+    \item	Navegação guiada por voz, que facilita a adaptação de novos motoristas;
+    \item	Atualização em tempo real de rotas, considerando ruas estreitas e restrições de veículos;
+    \item	Gestão eficiente de grandes volumes de dados, incluindo milhares de lixeiras e veículos, minimizando erros em processos manuais.Esses sistemas buscam reduzir custos operacionais e impactos ambientais, como ruídos e congestionamentos urbanos .
 \end{itemize}
 
 \subsection{Sistemas Municipais de Monitoramento (Ex.: Vitória – ES)}
@@ -139,9 +139,9 @@ A prefeitura de Vitória utiliza monitoramento via GPS para acompanhar os caminh
 \subsection{Plataformas Brasileiras de Gestão de Resíduos}
 Algumas empresas oferecem soluções voltadas para gestão corporativa ou municipal, tais como:
 \begin{itemize}
-    \ •	MeuResíduo;
-    \ • Zero Route Planner;
-    \•	DigiResíduos;
+    \item	MeuResíduo;
+    \item Zero Route Planner;
+    \item	DigiResíduos;
 \end{itemize}
 Essas plataformas fornecem recursos para rastreamento de resíduos, logística reversa e relatórios ambientais, porém não oferecem foco direto no cidadão comum, nem funcionalidades integradas como gamificação, notificações personalizadas ou mapeamento amigável de PEVs 
 
@@ -156,13 +156,13 @@ Essas plataformas fornecem recursos para rastreamento de resíduos, logística r
 \section{Diferenciais da Plataforma Proposta }
 Com base nas pesquisas e entrevistas, o projeto se diferencia por:
 \begin{itemize}
- \•	Foco direto no cidadão, não apenas nas prefeituras.
- \•	Centralização total das informações, eliminando a dispersão atual indicada nas entrevistas.
- \•	Sistema de notificações personalizadas, resolvendo a principal dor identificada: a incerteza dos horários da coleta.
- \•	Mapeamento amigável dos PEVs, que falta nos sistemas atuais.
- \•	Gamificação, inexistente nas plataformas analisadas.
- \•	Ferramentas de educação ambiental, melhorando o entendimento sobre separação do lixo.
- \•	Apoio ao planejamento diário do morador, levando em consideração relatos de que muitos saem cedo para trabalhar e não sabem o momento correto de colocar o lixo na rua.
+ \item	Foco direto no cidadão, não apenas nas prefeituras.
+ \item	Centralização total das informações, eliminando a dispersão atual indicada nas entrevistas.
+ \item	Sistema de notificações personalizadas, resolvendo a principal dor identificada: a incerteza dos horários da coleta.
+ \item	Mapeamento amigável dos PEVs, que falta nos sistemas atuais.
+ \item	Gamificação, inexistente nas plataformas analisadas.
+ \item	Ferramentas de educação ambiental, melhorando o entendimento sobre separação do lixo.
+ \item	Apoio ao planejamento diário do morador, levando em consideração relatos de que muitos saem cedo para trabalhar e não sabem o momento correto de colocar o lixo na rua.
  
 \end{itemize}
    
@@ -201,16 +201,35 @@ Com base nas pesquisas e entrevistas, o projeto se diferencia por:
   \item RNF007: O sistema deve estar em conformidade com a LGPD (Lei Geral de Proteção de Dados), solicitando consentimento claro para o uso de dados de localização e notificações.
 \end{itemize}
 
+\section{Modelagem do sistema}
+\subsection{Diagrama de Casos de Uso}
+\begin{figure}[!h]
+    \centering
+    %\caption{Imagem do projeto montado no tinkercad.}
+    \includegraphics[width=1\textwidth]{Figuras/CasosdeUsoEcoleta.jpg}
+    \caption*{Fonte: Autoria própria.} 
+    \label{fig:exemplo}
+\end{figure}
+
+\subsection{Diagrama de Classes}
+\begin{figure}[!h]
+    \centering
+    %\caption{Imagem do projeto montado no tinkercad.}
+    \includegraphics[width=1\textwidth]{Figuras/DiagramaClasses.jpg}
+    \caption*{Fonte: Autoria própria.} 
+    \label{fig:exemplo}
+\end{figure}
+
 \section{Referencias}
-\begin{itemize}
-  \SENSONEO. Driver App. Disponível em: https://sensoneo.com/products/driver-app/
-  \SENSONEO. Route Planning. Disponível em: https://sensoneo.com/products/route-planning/
-  \VITÓRIA (ES). Prefeitura Municipal. Monitoramento da coleta de lixo pelo sistema GPS agiliza o serviço na capital. Disponível em:
-https://www.vitoria.es.gov.br/noticias/monitoramento-da-coleta-de-lixo-pelo-sistema-gps-agiliza-o-servico-na-capital-11229
-  \ZERO ROUTE PLANNER. Gestão de resíduos. Disponível em:https://zeorouteplanner.com/pt/gest%C3%A3o-de-res%C3%ADduos/
-  \MEU RESÍDUO. Plataforma de gestão de resíduos. Disponível em:https://www.meuresiduo.com/
-  \DIGIRESÍDUOS. Sistema de gestão de resíduos sólidos. Disponível em:https://www.digiresiduos.com.br/
-\end{itemize}
+%\begin{itemize}
+%   \SENSONEO. Driver App. Disponível em: https://sensoneo.com/products/driver-app/
+%   \SENSONEO. Route Planning. Disponível em: https://sensoneo.com/products/route-planning/
+%   \VITÓRIA (ES). Prefeitura Municipal. Monitoramento da coleta de lixo pelo sistema GPS agiliza o serviço na capital. Disponível em:
+% https://www.vitoria.es.gov.br/noticias/monitoramento-da-coleta-de-lixo-pelo-sistema-gps-agiliza-o-servico-na-capital-11229
+%   \ZERO ROUTE PLANNER. Gestão de resíduos. Disponível em:https://zeorouteplanner.com/pt/gest%C3%A3o-de-res%C3%ADduos/
+%   \MEU RESÍDUO. Plataforma de gestão de resíduos. Disponível em:https://www.meuresiduo.com/
+%   \DIGIRESÍDUOS. Sistema de gestão de resíduos sólidos. Disponível em:https://www.digiresiduos.com.br/
+%\end{itemize}
 
 \postextual%% Elementos pós-textuais
 \newpage

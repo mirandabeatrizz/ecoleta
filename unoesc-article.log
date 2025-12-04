@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  14 NOV 2025 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.25)  3 DEC 2025 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1369,6 +1369,13 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
  (unoesc-article.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 13.
+
+
+LaTeX Warning: Label `fig:exemplo' multiply defined.
+
+
+LaTeX Warning: Label `fig:exemplo@cref' multiply defined.
+
 )
 \openout1 = `unoesc-article.aux'.
 
@@ -1652,10 +1659,17 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 
 {C:/Users/miran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 101.
+ (C:\Users\miran\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 101.
+
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 109.
+(Font)              scaled to size 10.0pt on input line 116.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 116.
 (C:\Users\miran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1668,58 +1682,97 @@ Package microtype Info: Loading generic protrusion settings for font family
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 109.
+(in both cases you will find help in the memoir manual). on input line 116.
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [2{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 120.
- (C:\Users\miran\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 120.
-
+{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
- [3{C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+ [3]
+Overfull \hbox (1.89491pt too wide) in paragraph at lines 149--155
+\T1/ntxtlf/m/n/12 (-20) --------------------------------------------------------------------|---------------------------------------------------------
+ []
+
+
 
 
 Overfull \vbox (0.27362pt too high) has occurred while \output is active []
 
  [4]
 
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [5]
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [6]
+<Figuras/CasosdeUsoEcoleta.jpg, id=50, 1455.4375pt x 1237.62375pt>
+File: Figuras/CasosdeUsoEcoleta.jpg Graphic file (type jpg)
+<use Figuras/CasosdeUsoEcoleta.jpg>
+Package pdftex.def Info: Figuras/CasosdeUsoEcoleta.jpg  used on input line 209.
+(pdftex.def)             Requested size: 483.69687pt x 411.30644pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 210.
+<Figuras/DiagramaClasses.jpg, id=51, 1185.42876pt x 975.645pt>
+File: Figuras/DiagramaClasses.jpg Graphic file (type jpg)
+<use Figuras/DiagramaClasses.jpg>
+Package pdftex.def Info: Figuras/DiagramaClasses.jpg  used on input line 218.
+(pdftex.def)             Requested size: 483.69687pt x 398.0966pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [7 <./Figuras/CasosdeUsoEcoleta.jpg>]
+
+
+Overfull \vbox (0.27362pt too high) has occurred while \output is active []
+
+ [8 <./Figuras/DiagramaClasses.jpg>]
+
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 157.
+(in both cases you will find help in the memoir manual). on input line 239.
 
 (unoesc-article.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'unoesc-article.run.xml'.
 \openout1 = `unoesc-article.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36729 strings out of 468130
- 629903 string characters out of 5430633
- 1658661 words of memory out of 5000000
- 64783 multiletter control sequences out of 15000+600000
- 671075 words of font info for 123 fonts, out of 8000000 for 9000
+ 36790 strings out of 468130
+ 631057 string characters out of 5430633
+ 1658824 words of memory out of 5000000
+ 64821 multiletter control sequences out of 15000+600000
+ 674304 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,1240b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/miran/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on unoesc-article.pdf (4 pages, 118582 bytes).
+Output written on unoesc-article.pdf (8 pages, 399499 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 22102 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 24232 words of extra memory for PDF output out of 24883 (max. 10000000)
 
